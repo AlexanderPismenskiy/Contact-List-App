@@ -12,6 +12,12 @@
 		A9F851932552EDB600E5211B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F851912552EDB600E5211B /* Main.storyboard */; };
 		A9F851952552EDBB00E5211B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F851942552EDBB00E5211B /* Assets.xcassets */; };
 		A9F851982552EDBB00E5211B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F851962552EDBB00E5211B /* LaunchScreen.storyboard */; };
+		A9F851AE2553236800E5211B /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F851AD2553236800E5211B /* PersonsListViewController.swift */; };
+		A9F851B12553247300E5211B /* FullInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F851B02553247300E5211B /* FullInfoViewController.swift */; };
+		A9F851B62553258C00E5211B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F851B52553258C00E5211B /* Person.swift */; };
+		A9F851B9255326AE00E5211B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F851B8255326AE00E5211B /* DataManager.swift */; };
+		A9F851BD25532AD300E5211B /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F851BC25532AD300E5211B /* ContactDetailsViewController.swift */; };
+		A9F851C32557257F00E5211B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F851C22557257F00E5211B /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		A9F851942552EDBB00E5211B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9F851972552EDBB00E5211B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9F851992552EDBB00E5211B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F851AD2553236800E5211B /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
+		A9F851B02553247300E5211B /* FullInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullInfoViewController.swift; sourceTree = "<group>"; };
+		A9F851B52553258C00E5211B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A9F851B8255326AE00E5211B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A9F851BC25532AD300E5211B /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		A9F851C22557257F00E5211B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,12 @@
 				A9F8518B2552EDB600E5211B /* AppDelegate.swift */,
 				A9F8518D2552EDB600E5211B /* SceneDelegate.swift */,
 				A9F851912552EDB600E5211B /* Main.storyboard */,
+				A9F851C22557257F00E5211B /* TabBarController.swift */,
+				A9F851AD2553236800E5211B /* PersonsListViewController.swift */,
+				A9F851BC25532AD300E5211B /* ContactDetailsViewController.swift */,
+				A9F851B02553247300E5211B /* FullInfoViewController.swift */,
+				A9F851B52553258C00E5211B /* Person.swift */,
+				A9F851B8255326AE00E5211B /* DataManager.swift */,
 				A9F851942552EDBB00E5211B /* Assets.xcassets */,
 				A9F851962552EDBB00E5211B /* LaunchScreen.storyboard */,
 				A9F851992552EDBB00E5211B /* Info.plist */,
@@ -134,7 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F851B62553258C00E5211B /* Person.swift in Sources */,
+				A9F851C32557257F00E5211B /* TabBarController.swift in Sources */,
+				A9F851BD25532AD300E5211B /* ContactDetailsViewController.swift in Sources */,
+				A9F851B9255326AE00E5211B /* DataManager.swift in Sources */,
 				A9F8518C2552EDB600E5211B /* AppDelegate.swift in Sources */,
+				A9F851B12553247300E5211B /* FullInfoViewController.swift in Sources */,
+				A9F851AE2553236800E5211B /* PersonsListViewController.swift in Sources */,
 				A9F8518E2552EDB600E5211B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
